@@ -1,3 +1,4 @@
 function SayHello()
 {
-  document.
+  document.getElementById("hello").innerHTML="Hello";
+}
