@@ -1,4 +1,4 @@
 function SayHello()
 {
-  document.getElementById("hello").innerHTML="Hello";
+  alert("Welcome to our Vaccancy Application Form");
 }
