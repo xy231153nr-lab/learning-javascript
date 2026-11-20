@@ -1,1 +1,154 @@
 
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>Unit 6 Exemplar</title>
+
+    <link rel="stylesheet" type="text/css" href="Styles/Unit6_Style.css" />
+
+</head>
+
+<body>
+
+    <!-- the header row contains the image and the text -->
+
+    <div class="HeaderRow">
+
+        <div class="HeaderColumnLeft">
+
+        </div>
+
+        <div class="HeaderColumnRight">
+
+            <h1 class="HeaderTitle">The Hot Beans</h1>
+
+            <p class="HeaderText">Hot Beans Web copyright (c) 2025 </p>
+
+        </div>
+
+    </div>
+
+    
+
+
+
+    <!--main horizontal menu for navigating the site -->
+
+    <div class="topnav">
+
+        <a href="https://www.w3schools.com/css/css_image_sprites.asp">Company Profile</a>
+
+        <a href="#">Employees</a>
+
+        <a href="#">Current Vacancies</a>
+
+        <a href="#">Work For Us!</a>
+
+        <a href="#">Useful Links</a>
+
+    </div>
+
+
+
+    <div class="row">
+
+        <div class="columnLeft">
+
+            <h1 />
+
+        </div>
+
+        <!--simple centre content from the form submission-->
+
+        <div class="columnCentre">
+
+            <h1>Thank you for your enquiry</h1>
+
+            <h2>someone will be in touch soon.</h2>
+
+            <h1 /><h1 /><h1 /><h1 /><h1 />
+
+            <button type="button" onclick="CheckBrowser()">Check Browser</button>
+
+        </div>
+
+        <div class="columnRight">
+
+            <img src="Images/Web-Designing-company.jpg" width="200" height="100" />
+
+        </div>
+
+    </div>
+
+    <!-- footer element everything is in the CSS-->
+
+    <div class="footer"></div>
+
+    <script>
+
+        //function that runs onclick of the button to check the browser version
+
+        function CheckBrowser()
+
+        {
+
+
+
+            var appVersion = window.navigator.appVersion;
+
+
+
+            //using search not includes to make it compatible with current browser versions
+
+            //IE app version contains the words "Trident"
+
+            //if this if NOT found, the search function returns -1
+
+            if (appVersion.search("Trident") > -1)
+
+            {
+
+                alert("you are using Internet Explorer as a browser");
+
+            }
+
+            //Edge app version contains the words "Edge"
+
+            //if this if NOT found, the search function returns -1
+
+            else if (appVersion.search("Edge") > -1)
+
+            {
+
+                alert("you are using Microsoft Edge as a browser");
+
+            }
+
+            //this has only been checked with Edge, IE and Chrome. You will need to check the appVersion for safari.
+
+            else
+
+            {
+
+                alert("you are using Google Chrome as a browser");
+
+            }
+
+        }
+
+
+
+    </script>
+
+
+
+
+
+</body>
+
+            </html>
